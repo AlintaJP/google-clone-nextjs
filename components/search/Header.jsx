@@ -46,7 +46,7 @@ const Header = () => {
           <XIcon
             className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition 
           duration-100 transform hover:scale-125"
-            onClick={() => setSearchTerm("")}
+            onClick={() => (searchTermRef.current.value = "")}
           />
           <MicrophoneIcon
             className="h-6 mr-3 hidden sm:inline-flex 
