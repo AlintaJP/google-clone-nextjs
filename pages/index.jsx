@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Header from "./components/Header";
-import Form from "./components/Form";
-import Footer from "./components/Footer";
+import Header from "../components/home/Header";
+import Form from "../components/home/Form";
+import Footer from "../components/home/Footer";
 
 export default function Home() {
   return (

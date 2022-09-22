@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import Header from "./components/Header";
-import { createSearchURL } from "./utils/createSearchURL";
+import Header from "../../components/search/Header";
+import { createSearchURL } from "../../utils/createSearchURL";
 import { Response } from "../../Response";
-import SearchResults from "./components/SearchResults";
+import SearchResults from "../../components/search/SearchResults";
 import { useRouter } from "next/router";
 
 const Search = ({ results }) => {

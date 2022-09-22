@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useRef } from "react";
-import googleLogo from "../../../assets/Google_2015_logo.svg.webp";
-import profilePic from "../../../assets/Me_2.jpg";
+import googleLogo from "../../assets/Google_2015_logo.svg.webp";
+import profilePic from "../../assets/Me_2.jpg";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
-import Avatar from "../../components/Avatar";
+import Avatar from "../home/Avatar";
 import HeaderOptions from "./HeaderOptions";
 
 const Header = () => {
